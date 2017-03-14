@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TimingsAnimationViewController : UIViewController
+@interface TimingsAnimationViewController : UIViewController<UIViewControllerTransitioningDelegate>
 
 @end

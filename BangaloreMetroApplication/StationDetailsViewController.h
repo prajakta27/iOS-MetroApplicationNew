@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface StationDetailsViewController : UIViewController
+
+@interface StationDetailsViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+
+@property (strong, nonatomic) IBOutlet UITableView *stationNameTable;
 
 @end

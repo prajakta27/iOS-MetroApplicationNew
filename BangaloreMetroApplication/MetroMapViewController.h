@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MetroMapViewController : UIViewController
-
+@property(strong, nonatomic) IBOutlet UIButton *backBtn;
 @end

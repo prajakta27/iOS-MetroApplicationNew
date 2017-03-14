@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SelectedStationDetailViewController : UIViewController
+
+@interface SelectedStationDetailViewController : UIViewController<UIViewControllerTransitioningDelegate>
+
+@property(strong, nonatomic) NSString *selectedStationName;
+@property(strong, nonatomic) IBOutlet UIButton *backBtn;
 
 @end

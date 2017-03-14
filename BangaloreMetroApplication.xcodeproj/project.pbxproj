@@ -15,6 +15,31 @@
 		7979323E1E6E828500FA761F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7979323C1E6E828500FA761F /* LaunchScreen.storyboard */; };
 		797932491E6E828500FA761F /* BangaloreMetroApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 797932481E6E828500FA761F /* BangaloreMetroApplicationTests.m */; };
 		797932541E6E828500FA761F /* BangaloreMetroApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 797932531E6E828500FA761F /* BangaloreMetroApplicationUITests.m */; };
+		7979326D1E6EAE9A00FA761F /* APIFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7979326C1E6EAE9A00FA761F /* APIFile.m */; };
+		797932701E6EAEB500FA761F /* APIPackets.m in Sources */ = {isa = PBXBuildFile; fileRef = 7979326F1E6EAEB500FA761F /* APIPackets.m */; };
+		797932731E6EAEDA00FA761F /* DataObjectFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 797932721E6EAEDA00FA761F /* DataObjectFile.m */; };
+		797932771E6EAF1D00FA761F /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797932761E6EAF1D00FA761F /* AboutUsViewController.m */; };
+		7979327A1E6EAF3000FA761F /* ContactAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797932791E6EAF3000FA761F /* ContactAnimationViewController.m */; };
+		7979327D1E6EAF4200FA761F /* FrequencyAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7979327C1E6EAF4200FA761F /* FrequencyAnimationViewController.m */; };
+		797932801E6EB8CC00FA761F /* MetroMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7979327F1E6EB8CB00FA761F /* MetroMapViewController.m */; };
+		797932831E6EB8DC00FA761F /* NearestStationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797932821E6EB8DC00FA761F /* NearestStationViewController.m */; };
+		797932861E6EB8EB00FA761F /* ParkingAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797932851E6EB8EB00FA761F /* ParkingAnimationViewController.m */; };
+		797932891E6EB8FB00FA761F /* RouteInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797932881E6EB8FB00FA761F /* RouteInfoViewController.m */; };
+		7979328C1E6EB90D00FA761F /* SearchRouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7979328B1E6EB90D00FA761F /* SearchRouteViewController.m */; };
+		7979328F1E6EB91D00FA761F /* SelectedStationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7979328E1E6EB91D00FA761F /* SelectedStationDetailViewController.m */; };
+		797932921E6EB92C00FA761F /* StationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797932911E6EB92C00FA761F /* StationDetailsViewController.m */; };
+		797932951E6EB93E00FA761F /* TimingsAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797932941E6EB93E00FA761F /* TimingsAnimationViewController.m */; };
+		797932A11E6EBEDD00FA761F /* bangalore-metro-map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 797932971E6EBEDD00FA761F /* bangalore-metro-map.jpg */; };
+		797932A21E6EBEDD00FA761F /* Frequency.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 797932981E6EBEDD00FA761F /* Frequency.jpg */; };
+		797932A31E6EBEDD00FA761F /* Left Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 797932991E6EBEDD00FA761F /* Left Filled-50.png */; };
+		797932A41E6EBEDD00FA761F /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7979329A1E6EBEDD00FA761F /* map.jpg */; };
+		797932A51E6EBEDD00FA761F /* notifications_close_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7979329B1E6EBEDD00FA761F /* notifications_close_btn@2x.png */; };
+		797932A61E6EBEDD00FA761F /* Parking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7979329C1E6EBEDD00FA761F /* Parking.jpg */; };
+		797932A71E6EBEDD00FA761F /* Rotate Left Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7979329D1E6EBEDD00FA761F /* Rotate Left Filled-50.png */; };
+		797932A81E6EBEDD00FA761F /* Route-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7979329E1E6EBEDD00FA761F /* Route-50.png */; };
+		797932A91E6EBEDD00FA761F /* TimingFirst.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7979329F1E6EBEDD00FA761F /* TimingFirst.jpg */; };
+		797932AA1E6EBEDD00FA761F /* TimingLast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 797932A01E6EBEDD00FA761F /* TimingLast.jpg */; };
+		BB48EE5142277CC5E2F4D277 /* libPods-BangaloreMetroApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 051DCE2888FA0AA60F88367A /* libPods-BangaloreMetroApplication.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051DCE2888FA0AA60F88367A /* libPods-BangaloreMetroApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BangaloreMetroApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268B08313EB8D072426A80B2 /* Pods-BangaloreMetroApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BangaloreMetroApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-BangaloreMetroApplication/Pods-BangaloreMetroApplication.release.xcconfig"; sourceTree = "<group>"; };
 		7979322B1E6E828400FA761F /* BangaloreMetroApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BangaloreMetroApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7979322F1E6E828400FA761F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		797932311E6E828400FA761F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +78,46 @@
 		7979324F1E6E828500FA761F /* BangaloreMetroApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BangaloreMetroApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		797932531E6E828500FA761F /* BangaloreMetroApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BangaloreMetroApplicationUITests.m; sourceTree = "<group>"; };
 		797932551E6E828500FA761F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7979326B1E6EAE9A00FA761F /* APIFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIFile.h; sourceTree = "<group>"; };
+		7979326C1E6EAE9A00FA761F /* APIFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIFile.m; sourceTree = "<group>"; };
+		7979326E1E6EAEB500FA761F /* APIPackets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIPackets.h; sourceTree = "<group>"; };
+		7979326F1E6EAEB500FA761F /* APIPackets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIPackets.m; sourceTree = "<group>"; };
+		797932711E6EAEDA00FA761F /* DataObjectFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataObjectFile.h; sourceTree = "<group>"; };
+		797932721E6EAEDA00FA761F /* DataObjectFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataObjectFile.m; sourceTree = "<group>"; };
+		797932741E6EAEFE00FA761F /* ConstantsFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantsFile.h; sourceTree = "<group>"; };
+		797932751E6EAF1D00FA761F /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		797932761E6EAF1D00FA761F /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		797932781E6EAF3000FA761F /* ContactAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactAnimationViewController.h; sourceTree = "<group>"; };
+		797932791E6EAF3000FA761F /* ContactAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactAnimationViewController.m; sourceTree = "<group>"; };
+		7979327B1E6EAF4200FA761F /* FrequencyAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrequencyAnimationViewController.h; sourceTree = "<group>"; };
+		7979327C1E6EAF4200FA761F /* FrequencyAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrequencyAnimationViewController.m; sourceTree = "<group>"; };
+		7979327E1E6EB8CB00FA761F /* MetroMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetroMapViewController.h; sourceTree = "<group>"; };
+		7979327F1E6EB8CB00FA761F /* MetroMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetroMapViewController.m; sourceTree = "<group>"; };
+		797932811E6EB8DC00FA761F /* NearestStationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearestStationViewController.h; sourceTree = "<group>"; };
+		797932821E6EB8DC00FA761F /* NearestStationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearestStationViewController.m; sourceTree = "<group>"; };
+		797932841E6EB8EB00FA761F /* ParkingAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingAnimationViewController.h; sourceTree = "<group>"; };
+		797932851E6EB8EB00FA761F /* ParkingAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingAnimationViewController.m; sourceTree = "<group>"; };
+		797932871E6EB8FB00FA761F /* RouteInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteInfoViewController.h; sourceTree = "<group>"; };
+		797932881E6EB8FB00FA761F /* RouteInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteInfoViewController.m; sourceTree = "<group>"; };
+		7979328A1E6EB90D00FA761F /* SearchRouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchRouteViewController.h; sourceTree = "<group>"; };
+		7979328B1E6EB90D00FA761F /* SearchRouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchRouteViewController.m; sourceTree = "<group>"; };
+		7979328D1E6EB91C00FA761F /* SelectedStationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedStationDetailViewController.h; sourceTree = "<group>"; };
+		7979328E1E6EB91D00FA761F /* SelectedStationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedStationDetailViewController.m; sourceTree = "<group>"; };
+		797932901E6EB92C00FA761F /* StationDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationDetailsViewController.h; sourceTree = "<group>"; };
+		797932911E6EB92C00FA761F /* StationDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationDetailsViewController.m; sourceTree = "<group>"; };
+		797932931E6EB93E00FA761F /* TimingsAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimingsAnimationViewController.h; sourceTree = "<group>"; };
+		797932941E6EB93E00FA761F /* TimingsAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimingsAnimationViewController.m; sourceTree = "<group>"; };
+		797932971E6EBEDD00FA761F /* bangalore-metro-map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bangalore-metro-map.jpg"; sourceTree = "<group>"; };
+		797932981E6EBEDD00FA761F /* Frequency.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Frequency.jpg; sourceTree = "<group>"; };
+		797932991E6EBEDD00FA761F /* Left Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Left Filled-50.png"; sourceTree = "<group>"; };
+		7979329A1E6EBEDD00FA761F /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
+		7979329B1E6EBEDD00FA761F /* notifications_close_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notifications_close_btn@2x.png"; sourceTree = "<group>"; };
+		7979329C1E6EBEDD00FA761F /* Parking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Parking.jpg; sourceTree = "<group>"; };
+		7979329D1E6EBEDD00FA761F /* Rotate Left Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rotate Left Filled-50.png"; sourceTree = "<group>"; };
+		7979329E1E6EBEDD00FA761F /* Route-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Route-50.png"; sourceTree = "<group>"; };
+		7979329F1E6EBEDD00FA761F /* TimingFirst.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TimingFirst.jpg; sourceTree = "<group>"; };
+		797932A01E6EBEDD00FA761F /* TimingLast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TimingLast.jpg; sourceTree = "<group>"; };
+		9744E03C0017310D768AAF60 /* Pods-BangaloreMetroApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BangaloreMetroApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BangaloreMetroApplication/Pods-BangaloreMetroApplication.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB48EE5142277CC5E2F4D277 /* libPods-BangaloreMetroApplication.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +146,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26B5E3F5F3A56D9FD0484896 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				051DCE2888FA0AA60F88367A /* libPods-BangaloreMetroApplication.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CC54E65A3649AA68814B7CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9744E03C0017310D768AAF60 /* Pods-BangaloreMetroApplication.debug.xcconfig */,
+				268B08313EB8D072426A80B2 /* Pods-BangaloreMetroApplication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		797932221E6E828400FA761F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +170,8 @@
 				797932471E6E828500FA761F /* BangaloreMetroApplicationTests */,
 				797932521E6E828500FA761F /* BangaloreMetroApplicationUITests */,
 				7979322C1E6E828400FA761F /* Products */,
+				4CC54E65A3649AA68814B7CC /* Pods */,
+				26B5E3F5F3A56D9FD0484896 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +188,40 @@
 		7979322D1E6E828400FA761F /* BangaloreMetroApplication */ = {
 			isa = PBXGroup;
 			children = (
+				797932961E6EBEB700FA761F /* Images */,
+				797932741E6EAEFE00FA761F /* ConstantsFile.h */,
+				7979326B1E6EAE9A00FA761F /* APIFile.h */,
+				7979326C1E6EAE9A00FA761F /* APIFile.m */,
+				7979326E1E6EAEB500FA761F /* APIPackets.h */,
+				7979326F1E6EAEB500FA761F /* APIPackets.m */,
+				797932711E6EAEDA00FA761F /* DataObjectFile.h */,
+				797932721E6EAEDA00FA761F /* DataObjectFile.m */,
 				797932311E6E828400FA761F /* AppDelegate.h */,
 				797932321E6E828400FA761F /* AppDelegate.m */,
 				797932341E6E828400FA761F /* ViewController.h */,
 				797932351E6E828400FA761F /* ViewController.m */,
+				797932751E6EAF1D00FA761F /* AboutUsViewController.h */,
+				797932761E6EAF1D00FA761F /* AboutUsViewController.m */,
+				797932781E6EAF3000FA761F /* ContactAnimationViewController.h */,
+				797932791E6EAF3000FA761F /* ContactAnimationViewController.m */,
+				7979327B1E6EAF4200FA761F /* FrequencyAnimationViewController.h */,
+				7979327C1E6EAF4200FA761F /* FrequencyAnimationViewController.m */,
+				7979327E1E6EB8CB00FA761F /* MetroMapViewController.h */,
+				7979327F1E6EB8CB00FA761F /* MetroMapViewController.m */,
+				797932811E6EB8DC00FA761F /* NearestStationViewController.h */,
+				797932821E6EB8DC00FA761F /* NearestStationViewController.m */,
+				797932841E6EB8EB00FA761F /* ParkingAnimationViewController.h */,
+				797932851E6EB8EB00FA761F /* ParkingAnimationViewController.m */,
+				797932871E6EB8FB00FA761F /* RouteInfoViewController.h */,
+				797932881E6EB8FB00FA761F /* RouteInfoViewController.m */,
+				7979328A1E6EB90D00FA761F /* SearchRouteViewController.h */,
+				7979328B1E6EB90D00FA761F /* SearchRouteViewController.m */,
+				7979328D1E6EB91C00FA761F /* SelectedStationDetailViewController.h */,
+				7979328E1E6EB91D00FA761F /* SelectedStationDetailViewController.m */,
+				797932901E6EB92C00FA761F /* StationDetailsViewController.h */,
+				797932911E6EB92C00FA761F /* StationDetailsViewController.m */,
+				797932931E6EB93E00FA761F /* TimingsAnimationViewController.h */,
+				797932941E6EB93E00FA761F /* TimingsAnimationViewController.m */,
 				797932371E6E828400FA761F /* Main.storyboard */,
 				7979323A1E6E828500FA761F /* Assets.xcassets */,
 				7979323C1E6E828500FA761F /* LaunchScreen.storyboard */,
@@ -140,6 +257,23 @@
 			path = BangaloreMetroApplicationUITests;
 			sourceTree = "<group>";
 		};
+		797932961E6EBEB700FA761F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				797932971E6EBEDD00FA761F /* bangalore-metro-map.jpg */,
+				797932981E6EBEDD00FA761F /* Frequency.jpg */,
+				797932991E6EBEDD00FA761F /* Left Filled-50.png */,
+				7979329A1E6EBEDD00FA761F /* map.jpg */,
+				7979329B1E6EBEDD00FA761F /* notifications_close_btn@2x.png */,
+				7979329C1E6EBEDD00FA761F /* Parking.jpg */,
+				7979329D1E6EBEDD00FA761F /* Rotate Left Filled-50.png */,
+				7979329E1E6EBEDD00FA761F /* Route-50.png */,
+				7979329F1E6EBEDD00FA761F /* TimingFirst.jpg */,
+				797932A01E6EBEDD00FA761F /* TimingLast.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 797932581E6E828500FA761F /* Build configuration list for PBXNativeTarget "BangaloreMetroApplication" */;
 			buildPhases = (
+				A03D04B0AF0CCA70309B02B4 /* [CP] Check Pods Manifest.lock */,
 				797932271E6E828400FA761F /* Sources */,
 				797932281E6E828400FA761F /* Frameworks */,
 				797932291E6E828400FA761F /* Resources */,
+				C4EC759029752E5256F0B6F1 /* [CP] Embed Pods Frameworks */,
+				5056AE5D16BFC47D918DCBC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,8 +383,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797932A71E6EBEDD00FA761F /* Rotate Left Filled-50.png in Resources */,
+				797932A11E6EBEDD00FA761F /* bangalore-metro-map.jpg in Resources */,
 				7979323E1E6E828500FA761F /* LaunchScreen.storyboard in Resources */,
 				7979323B1E6E828500FA761F /* Assets.xcassets in Resources */,
+				797932AA1E6EBEDD00FA761F /* TimingLast.jpg in Resources */,
+				797932A21E6EBEDD00FA761F /* Frequency.jpg in Resources */,
+				797932A81E6EBEDD00FA761F /* Route-50.png in Resources */,
+				797932A91E6EBEDD00FA761F /* TimingFirst.jpg in Resources */,
+				797932A41E6EBEDD00FA761F /* map.jpg in Resources */,
+				797932A61E6EBEDD00FA761F /* Parking.jpg in Resources */,
+				797932A51E6EBEDD00FA761F /* notifications_close_btn@2x.png in Resources */,
+				797932A31E6EBEDD00FA761F /* Left Filled-50.png in Resources */,
 				797932391E6E828500FA761F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +415,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5056AE5D16BFC47D918DCBC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BangaloreMetroApplication/Pods-BangaloreMetroApplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A03D04B0AF0CCA70309B02B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4EC759029752E5256F0B6F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BangaloreMetroApplication/Pods-BangaloreMetroApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		797932271E6E828400FA761F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797932921E6EB92C00FA761F /* StationDetailsViewController.m in Sources */,
 				797932361E6E828400FA761F /* ViewController.m in Sources */,
 				797932331E6E828400FA761F /* AppDelegate.m in Sources */,
+				797932771E6EAF1D00FA761F /* AboutUsViewController.m in Sources */,
+				7979328F1E6EB91D00FA761F /* SelectedStationDetailViewController.m in Sources */,
+				797932731E6EAEDA00FA761F /* DataObjectFile.m in Sources */,
+				797932861E6EB8EB00FA761F /* ParkingAnimationViewController.m in Sources */,
+				7979327A1E6EAF3000FA761F /* ContactAnimationViewController.m in Sources */,
+				797932801E6EB8CC00FA761F /* MetroMapViewController.m in Sources */,
+				797932831E6EB8DC00FA761F /* NearestStationViewController.m in Sources */,
+				7979328C1E6EB90D00FA761F /* SearchRouteViewController.m in Sources */,
+				7979326D1E6EAE9A00FA761F /* APIFile.m in Sources */,
+				797932891E6EB8FB00FA761F /* RouteInfoViewController.m in Sources */,
 				797932301E6E828400FA761F /* main.m in Sources */,
+				7979327D1E6EAF4200FA761F /* FrequencyAnimationViewController.m in Sources */,
+				797932951E6EB93E00FA761F /* TimingsAnimationViewController.m in Sources */,
+				797932701E6EAEB500FA761F /* APIPackets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +579,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -412,7 +621,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,22 +631,26 @@
 		};
 		797932591E6E828500FA761F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9744E03C0017310D768AAF60 /* Pods-BangaloreMetroApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BangaloreMetroApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bangaloremetro.com.sample.project.BangaloreMetroApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.project.BangaloreMetroApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		7979325A1E6E828500FA761F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268B08313EB8D072426A80B2 /* Pods-BangaloreMetroApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BangaloreMetroApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bangaloremetro.com.sample.project.BangaloreMetroApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.project.BangaloreMetroApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -448,7 +661,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BangaloreMetroApplicationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bangaloremetro.com.sample.project.BangaloreMetroApplicationTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.project.BangaloreMetroApplicationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BangaloreMetroApplication.app/BangaloreMetroApplication";
 			};
@@ -460,7 +673,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = BangaloreMetroApplicationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bangaloremetro.com.sample.project.BangaloreMetroApplicationTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.project.BangaloreMetroApplicationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BangaloreMetroApplication.app/BangaloreMetroApplication";
 			};
@@ -471,7 +684,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = BangaloreMetroApplicationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bangaloremetro.com.sample.project.BangaloreMetroApplicationUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.project.BangaloreMetroApplicationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = BangaloreMetroApplication;
 			};
@@ -482,7 +695,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = BangaloreMetroApplicationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bangaloremetro.com.sample.project.BangaloreMetroApplicationUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.project.BangaloreMetroApplicationUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = BangaloreMetroApplication;
 			};
@@ -507,6 +720,7 @@
 				7979325A1E6E828500FA761F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7979325B1E6E828500FA761F /* Build configuration list for PBXNativeTarget "BangaloreMetroApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +729,7 @@
 				7979325D1E6E828500FA761F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7979325E1E6E828500FA761F /* Build configuration list for PBXNativeTarget "BangaloreMetroApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +738,7 @@
 				797932601E6E828500FA761F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
