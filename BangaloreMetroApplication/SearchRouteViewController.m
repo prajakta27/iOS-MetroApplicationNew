@@ -242,6 +242,7 @@
             if([[[DataObjectFile getInstance] searchStationResultArray] count])
             {
                 [self.searchedStationsTable setHidden:NO];
+                //------------newww------------------------
                 autoCompleteListArr=[[NSMutableArray alloc] initWithArray:[[DataObjectFile getInstance] searchStationResultArray]];
                 [self performSelectorOnMainThread:@selector(updateTable) withObject:nil waitUntilDone:NO];
             }
