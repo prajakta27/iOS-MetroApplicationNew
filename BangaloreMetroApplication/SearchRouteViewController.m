@@ -58,6 +58,7 @@
     spinner.center = CGPointMake(139.5, 75.5);
     [alert setValue:spinner forKey:@"accessoryView"];
     [spinner startAnimating];
+    
     //[alert show];
 }
 
@@ -86,33 +87,15 @@
         [self.searchedStationsTable setHidden:YES];
     
     
-    if([fromOrToString length] <= 2)
+    if([fromOrToString length] <= 1)
     {
          [self.searchedStationsTable setHidden:YES];
     }
-    else if ([fromOrToString length] == 3)
+    else if ([fromOrToString length] == 2)
     {
-
-
-        [self findSearchedCityAPICall:fromOrToString];
-        //[self.searchedStationsTable setHidden:NO];
         [self searchTableView];
-        
+        [self findSearchedCityAPICall:fromOrToString];
     }
-
-    
-    
-    
-//    
-//    if ([fromOrToString length] == 1) {
-//        [self findSearchedCityAPICall:fromOrToString];
-//        [self searchTableView];
-//        
-//    }
-//    else
-//    {
-//        
-//    }
     return YES;
 }
 
@@ -156,16 +139,14 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    
     static NSString *simpleTableIdentifier = @"SimpleTableItem";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
     
-    if (cell == nil) {
+   if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
     }
     
     self.selectedStationString = [NSString stringWithFormat:@"%@", [autoCompleteListArr objectAtIndex:indexPath.row]];
- 
     cell.textLabel.text = self.selectedStationString;
     [self.searchedStationsTable setUserInteractionEnabled:YES];
     [cell.textLabel setFont:[UIFont fontWithName:@"HelveticaNeue-Medium" size:13]];
@@ -259,9 +240,11 @@
         {
             [autoCompleteListArr removeAllObjects];
             if([[[DataObjectFile getInstance] searchStationResultArray] count])
+            {
+                [self.searchedStationsTable setHidden:NO];
                 autoCompleteListArr=[[NSMutableArray alloc] initWithArray:[[DataObjectFile getInstance] searchStationResultArray]];
-            [self.searchedStationsTable setHidden:NO];
-            [self.searchedStationsTable reloadData];
+                [self performSelectorOnMainThread:@selector(updateTable) withObject:nil waitUntilDone:NO];
+            }
         }
     }
     else if(pRequest.requestID == GET_SEARCHED_DATA_INFO_REQUEST_ID)
@@ -275,6 +258,11 @@
         }
     }
     [pRequest.requestStatus removeObserver:self forKeyPath:KEY_PATH_REQUEST_STATUS];
+}
+
+-(void)updateTable
+{
+    [self.searchedStationsTable reloadData];
 }
 
 /*
